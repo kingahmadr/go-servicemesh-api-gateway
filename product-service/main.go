@@ -17,7 +17,7 @@ type Product struct {
 // Buat database in-memory sederhana
 var products = []Product{
 	{ID: "1", Name: "Buku Pemrograman Go", Price: 150000},
-	{ID: "2", Name: "Keyboard Mekanikal", Price: 750000},
+	{ID: "2", Name: "Keyboard Mekanikal", Price: 850000},
 	{ID: "3", Name: "Headphone", Price: 500000},
 }
 
