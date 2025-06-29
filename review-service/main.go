@@ -23,6 +23,9 @@ var reviews = map[string][]Review{
 	"2": {
 		{ProductID: "2", Rating: 5, Comment: "Enak dipakai mengetik."},
 	},
+	"3": {
+		{ProductID: "3", Rating: 5, Comment: "Enak dipakai untuk pemula."},
+	},
 }
 
 func reviewsHandler(w http.ResponseWriter, r *http.Request) {
